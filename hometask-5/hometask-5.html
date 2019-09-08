@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Forms 2</title>
+  <link type="text/css" rel="stylesheet" href="style.css" />
+  <link href="https://fonts.googleapis.com/css?family=Modak&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css?family=Roboto+Condensed&display=swap" rel="stylesheet">
+</head>
+<body>
+<h1 style="font-family: 'Roboto Condensed', sans-serif;">Создать форму заказа.</h1>
+<h3 style="font-family: 'Modak', cursive;">Требования:</h3>
+<ul>
+  <li>Валидация данных там где есть требования, и спец значения(email, tel), с подсказкой</li>
+  <li>Имя, пароль, контактные данные - обязательные поля.</li>
+  <li>Должно присутствовать поле для комментария пользователя.</li>
+  <li>Пароль должен состоять из 7 символов английского алфавита и/или цифр</li>
+  <li>Имя пользователя ограчиено 12 символами английского алфавита</li>
+  <li>Поддержка сброса данных</li>
+  <li>Обязательно присутсвие checkbox и radio</li>
+  <li>Данные отправить на адрес http://fe.it-academy.by/TestForm.php методом POST</li>
+  <li>Добавить таблицу стилей для границ и цвета шрифта элементов. Как минимум 2 типа стилей.</li>
+</ul>
+
+<form action="">
+  <label for="mail">Mail</label>
+  <input type="email" id="mail"/>
+  <label for="phone">Phone</label>
+  <input type="tel" id="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}">
+</form>
+</body>
+</html>
+
+</body>
+</html>
