@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+}
+
+.social-group {
+    width: 400px;
+    height: 300px;
+    margin-top: 30px;
+    margin-right: 30px;
+    background-color: #34b0ff;
+    position: fixed;
+    top: 0;
+    right: 0;
+    overflow: hidden;
+}
+
+.hidden-text {
+    position: absolute;
+    bottom: 0;
+}
+
+.social-group:hover {
+    height: 400px;
+    transition: all 0.5s ease-in-out;
+}
+
+.social-group:hover::after {
+    content: 'HIDDEN TEXT';
+    position: absolute;
+    bottom: 0;
+}
+
+.text-example {
+    width: 300px;
+}
+
+.container {
+    background-image: url("./img/bgimage.png");
+}
+
+.facebook {
+    width: 92px;
+    height: 92px;
+    background: url('./img/social.jpg') -28px -28px;
+    float: right;
+}
+
+.watsapp {
+    width: 92px;
+    height: 92px;
+    background: url('./img/social.jpg') -148px -28px;
+}
+
+.youtube {
+    width: 92px;
+    height: 92px;
+    background: url('./img/social.jpg') -268px -28px;
+}
