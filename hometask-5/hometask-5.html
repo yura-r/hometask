@@ -3,36 +3,28 @@
 <head>
   <meta charset="UTF-8">
   <title>Form3</title>
-  <link type="text/css" rel="stylesheet" href="style.css" />
+  <link type="text/css" rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<form action="http://fe.it-academy.by/TestForm.php" style="max-width:500px;margin:auto method="GET">
-<h2>Order Form</h2>
-<div class="input-container">
-  <input class="input-field" type="text" placeholder="Username" name="usrnm" maxlength="12"/>
-</div>
-
-<div class="input-container">
-  <input class="input-field" type="text" placeholder="Email" name="email">
-</div>
-
-<div class="input-container">
-  <input class="input-field" type="password" placeholder="Password" name="psw" maxlength="7">
-</div>
-
-<div class="input-container">
-  <input class="input-field" type="text" placeholder="Phone" name="phone">
-</div>
-Do you have 18?<br/>
-Yes
-<input type="radio" checked name="age" value="yes"/>
-No
-<input type="radio" name="age" value="no"/><br/>
-<div class="input-container">
-  <input class="input-field" type="comment" placeholder="Comment" name="comment">
-</div>
-<button type="reset" class="btn">Clear</button>
-<button type="submit" class="btn">Send</button>
+<form class="oder-form" action="http://fe.it-academy.by/TestForm.php" method="GET">
+  <h2>Order Form</h2>
+  <label for="username">Username</label>
+  <input id="username" class="input-field" type="text" placeholder="Username" name="username" maxlength="12" required />
+  <label for="email">Email</label>
+  <input id="email" class="input-field" type="text" placeholder="Email" name="email" required>
+  <label for="psw">Password</label>
+  <input id="psw" class="input-field" type="password" placeholder="Password" name="psw" maxlength="7" required>
+  <label for="phone">Phone</label>
+  <input id="phone" class="input-field" type="text" placeholder="Phone" name="phone" required>
+  <label for="comment">Comment</label>
+  <input id="comment" class="input-field" type="text" placeholder="Comment" name="comment" />
+  <Label>Do you have 18? </Label>
+  <label for="age_yes">Yes</label>
+  <input type="radio" checked name="age" id="age_yes" value="yes"/>
+  <label for="age_no">No</label>
+  <input type="radio" name="age" id="age_no" value="no"/><br/>
+  <button type="reset" class="btn">Clear</button>
+  <button type="submit" class="btn">Send</button>
 </form>
 </body>
 </html>
