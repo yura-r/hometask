@@ -1,0 +1,46 @@
+body{
+    background-color: forestgreen;
+    max-width: 960px;
+    margin: 0 auto
+}
+div{
+    border: 1px solid black;
+    padding: 5px 15px;
+}
+h2{
+    text-align: center;
+}
+.header{
+    border-radius: 10px 10px 0 0;
+    margin-top: 20px;
+    background-color: dodgerblue;
+    min-height: 200px;
+    line-height: 200px;
+    text-align: center;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(39, 39, 39, 0.86);
+}
+.sidebar {
+    background: cornflowerblue;
+    float: left;
+    margin-right: 10px;
+    max-width: 300px;
+    min-width: 150px;
+    height: 317.5px;
+}
+.container{
+    background: lightseagreen;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px rgba(39, 39, 39, 0.86);
+    text-align: justify;
+}
+.footer{
+    font-weight: bold;
+    color: aliceblue;
+    background: grey;
+    min-height: 30px;
+    line-height: 30px;
+    border-radius: 0 0 10px 10px;
+    box-shadow: 0 0 10px rgba(39, 39, 39, 0.86);
+    text-align: center;
+}
